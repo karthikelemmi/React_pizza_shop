@@ -1,0 +1,20 @@
+.button{
+    border:none;
+    /* color: rgb(217, 240, 240); */
+    padding: 10px 30px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.primary{background-color:rgb(212, 166, 109); padding: 5px 35px;}
+.secondary{background-color:rgb(141, 86, 50); color: black; padding: 6px 40px; font-size: medium; font-weight: bold; margin-top: 15px;}
+.secondary:hover{
+    color: white; background-color:rgb(41, 39, 39);
+}
+.submit{background-color: rgb(68, 125, 190);}
+.danger{background-color: red;}
+

@@ -1,0 +1,24 @@
+.vertical .card-img-sec{
+    background: white none repeat scroll 0 0;
+    overflow: hidden;
+}
+
+.vertical-card{
+    box-sizing:border-box;
+    font-size: 13px;
+    color:blueviolet;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+}
+
+.vertical{
+    text-align: center;
+}
+
+/* .card{
+    max-width: 100%;
+    flex-direction: row;
+} */
+.himg{
+    display: inline-block;
+}

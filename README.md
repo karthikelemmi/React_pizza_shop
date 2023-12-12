@@ -1,3 +1,42 @@
+# install react story book
+command: npx storybook@latest init
+run: npm run storybook
+
+# install react-bootstrap 
+command: npm install react-bootstrap
+
+# install bootstrap
+command:npm install bootstrap 
+
+1.include this in index.html: 
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-wsHI9JPs5l10PEvHyTl1zOuvf7ybNPzx7tDW3gLBt5D21TsQzx/3H4G1LXddJ3zZ"
+  crossorigin="anonymous"
+  />
+
+2.include this App.js : 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+# install bootstrap icons
+command:npm i bootstrap-icons
+
+1.include this in Footer.js:
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+# install codecept and playwright and test.
+command:npm install codeceptjs
+command:npx codeceptjs init
+command:npm install playwright
+
+to run codecept test command: npx codeceptjs run
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
